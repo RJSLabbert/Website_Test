@@ -1,4 +1,10 @@
+@font-face{	
+	font-family: "LibreBaskerville";
+	src: url("LibreBaskerville-Regular.ttf");
+}
+
 ul{
+	font-family: "LibreBaskerville";
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -9,7 +15,7 @@ ul{
 	left: 0;
 	right: 0;
 	width: 100%;
-	font-size: 25px;
+	font-size: 35px;
 }
 
 li{
@@ -31,7 +37,7 @@ li a:hover{
 
 body, html{
 	height: 100%;
-	background-image: url("bgImage1.jpg");
+	background-image: url("Images/Standing_landscape.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

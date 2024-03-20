@@ -1,0 +1,67 @@
+@font-face{	
+	font-family: "LibreBaskerville";
+	src: url("LibreBaskerville-Regular.ttf");
+}
+
+ul{
+	font-family: "LibreBaskerville";
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0059b3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	font-size: 15px;
+}
+
+li{
+	display: inline;
+	Float: left;
+}
+
+li a{
+	float: center;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #000066;
+	background: linear-gradient(to right, #0059b3 0%, #000066 50%, #0059b3 100%);
+}
+
+li b{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 50px;
+	text-decoration: none;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	padding: 125px 200px;
+	background-image: linear-gradient(to top right, rgba(0, 89, 179,1) 0%, rgba(0, 89, 179,0.5)50%, rgba(0, 89, 179, 0) 100%); 
+}
+
+body, html{
+	height: 100%;
+	background-image: url("Images/Standing_landscape.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+

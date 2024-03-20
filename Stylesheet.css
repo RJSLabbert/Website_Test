@@ -15,7 +15,7 @@ ul{
 	left: 0;
 	right: 0;
 	width: 100%;
-	font-size: 35px;
+	font-size: 15px;
 }
 
 li{
@@ -24,15 +24,35 @@ li{
 }
 
 li a{
+	float: center;
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 20px 25px;
+	padding: 10px 25px;
 	text-decoration: none;
 }
 
 li a:hover{
 	background-color: #000066;
+	background: linear-gradient(to right, #0059b3 0%, #000066 50%, #0059b3 100%);
+}
+
+li b{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 50px;
+	text-decoration: none;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	padding: 125px 200px;
+	background-image: linear-gradient(to top right, rgba(0, 89, 179,1) 0%, rgba(0, 89, 179,0.5)50%, rgba(0, 89, 179, 0) 100%); 
 }
 
 body, html{
@@ -42,4 +62,6 @@ body, html{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
 

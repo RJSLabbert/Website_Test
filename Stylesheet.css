@@ -1,6 +1,6 @@
 @font-face{	
-	font-family: "LibreBaskerville";
-	src: url("LibreBaskerville-Regular.ttf");
+	font-family: "P5M";
+	src: url("P5M.ttf");
 }
 
 ul{
@@ -19,7 +19,7 @@ ul{
 }
 
 li{
-	display: inline;
+	display: block;
 	Float: left;
 }
 
@@ -33,34 +33,74 @@ li a{
 }
 
 li a:hover{
-	background-color: #000066;
+	border-radius: 25px;
 	background: linear-gradient(to right, #0059b3 0%, #000066 50%, #0059b3 100%);
 }
 
-li b{
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 10px 50px;
-	text-decoration: none;
-}
+li a.current{
+	border-radius: 25px;
+	background: linear-gradient(to right, #0059b3 0%, #000066 50%, #0059b3 100%);
+}	
 
 .footer{
+	margin:0 auto;
 	position: fixed;
-	left: 0;
 	bottom: 0;
 	width: 100%;
+	text-align: center;
+	font-size: 15px;
 	color: white;
-	padding: 125px 200px;
-	background-image: linear-gradient(to top right, rgba(0, 89, 179,1) 0%, rgba(0, 89, 179,0.5)50%, rgba(0, 89, 179, 0) 100%); 
+	padding: 5px;
+	background-image: rgba(0, 89, 179,1);
 }
 
-body, html{
+.social{
+	text-align: right;
+	background-color: #0059b3;
+	padding: 1px 0px;
+	border-radius: 15px;
+	border: 2px solid black;
+	position: relative;
+	left: 1555px;
+}
+
+p{
+	Height: 10%;
+	width: 25%;
+	background: rgba(0, 89, 179,0);	
+	z-index: 2;
+}
+
+.image{
 	height: 100%;
-	background-image: url("Images/Standing_landscape.jpg");
+	width: 100%;
+	object-fit: cover;
+	background-image: url("Images/rock_bg.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 0%;
+	z-index: 1;
+}
+
+body{
+	background-color: #000066;
+}
+
+p{
+	position: relative;
+	top: 50px;
+	color: white;
+	font-size: 25px;
+	width: 40%;
+	height: auto;
+	margin:0 auto;
+	text-align: center;
+	background-color: rgba(0, 89, 179,0.85);
+	padding: 15px 15px;
+	border-radius: 15px;
+	border: 5px solid black;
+	overflow: hidden;
 }
 
 

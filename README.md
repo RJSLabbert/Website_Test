@@ -1,19 +1,13 @@
 # Personal Portfolio Website 🚀
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Portfolio-blue?style=for-the-badge&logo=github&logoColor=white)](https://rjlabbert.github.io/Website_Test)
+
 A responsive single-page portfolio showcasing my front-end skills. Features smooth animations, project highlights, and contact form.
 
-## ✨ Features
-- **Hero Section**: Eye-catching intro with headshot and tagline.
-- **Projects Grid**: Cards for your AI/mobile work (links to GitHub).
-- **Interactive Elements**: JS-powered smooth scrolling, form validation, dark mode toggle.
-- **Responsive Design**: Mobile-first (tested on iPhone/Android/Chrome).
-- **Performance**: 95+ Lighthouse score (optimized images/CSS).
+## 📱 Live Demo & Screenshots
+[🔗 Open Live Site](https://rjlabbert.github.io/Website_Test) *(Fully responsive!)*
 
-## 🛠️ Tech Stack
-| Front-End | Tools | Deployment |
-|-----------|-------|------------|
-| HTML5 | CSS3 (Flex/Grid) | GitHub Pages |
-| Vanilla JS | Animations (GSAP-lite) | Netlify (alt) |
+![Hero Section](https://rjlabbert.github.io/Website_Test/screenshot-hero.png)  
+![Projects](https://rjlabbert.github.io/Website_Test/screenshot-projects.png)
 
-## 🚀 Quick Setup (Local)
-1. Clone the repo:
+*(Tip: Add screenshots: Capture site > Upload to repo as PNGs > Update links.)*

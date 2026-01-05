@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riaan Slabbert</title>
+    <title>Riaan Slabbert | AI, Mobile & Web Developer</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts - Roboto and Poppins -->
+    <!-- Google Fonts - Poppins & Roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Header Section -->
+    <!-- Dark Mode Toggle -->
+    <button id="darkToggle" class="dark-toggle" aria-label="Toggle dark mode">🌙</button>
+
+    <!-- Header -->
     <header>
         <div class="container">
             <div class="logo">
-                <a href="index.html">Riaan Slabbert</a>
+                <a href="#home">Riaan Slabbert</a>
             </div>
             <nav>
                 <button class="mobile-menu-toggle" aria-label="Toggle menu">
@@ -31,24 +34,19 @@
         </div>
     </header>
 
-    <!-- Hero Section with Half Face Headshot -->
+    <!-- Hero -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-split-content">
-                <!-- Half Headshot -->
                 <div class="half-headshot">
-                    <!-- Start with a placeholder image, then replace with your own -->
-                    <img src="your-headshot.png" alt="Your Name">
-                    <!-- Once working, replace with: <img src="your-actual-image.jpg" alt="Your Name"> -->
+                    <img src="your-headshot.png" alt="Riaan Slabbert">
                 </div>
-                
-                <!-- Introduction Text -->
                 <div class="intro-text">
                     <h1>Riaan Slabbert</h1>
-                    <h2>Website designer and Marketing consultant</h2>
+                    <h2>AI, Mobile & Web Developer</h2>
                     <div class="hero-description">
-                        <p>I am a experienced developer that creates and manages pipelines creatong Personal and E-commerce websites.</p>
-                        <p>With expertise in modern web technologies and an eye for design, I bring creative visions to life.</p>
+                        <p>Experienced developer creating personal, e-commerce websites, and AI-powered apps. Pipelines for intelligent agents and mobile tools.</p>
+                        <p>Expertise in Kotlin, Gemini API, modern web tech, with a focus on design and performance.</p>
                     </div>
                     <div class="hero-cta">
                         <a href="#portfolio" class="btn btn-primary">View My Work</a>
@@ -59,36 +57,53 @@
         </div>
     </section>
 
-    <!-- Portfolio Section -->
+    <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <h2 class="section-title">My Portfolio</h2>
+            <h2 class="section-title">Featured Projects</h2>
             <div class="portfolio-grid">
-                <!-- Portfolio items will go here -->
-                <div class="portfolio-item">
-                    <div class="portfolio-placeholder">Project 1</div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-content">
+                        <h3>AI-Powered Minute-Taking App</h3>
+                        <p>Android app with Kotlin & Gemini API: Transcribes meetings, generates minutes/action items.</p>
+                        <a href="https://github.com/RJSLabbert/minute-taker" target="_blank" class="project-link">
+                            View on GitHub <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-placeholder">Project 2</div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-content">
+                        <h3>Intelligent AI Agents</h3>
+                        <p>Custom agents for tasks like APIs, data processing & automation (Python/JS + LLMs).</p>
+                        <a href="https://github.com/RJSLabbert/ai-agents" target="_blank" class="project-link">
+                            View on GitHub <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-placeholder">Project 3</div>
+                <div class="portfolio-item fade-in">
+                    <div class="portfolio-content">
+                        <h3>Secure Dev Testing VMs</h3>
+                        <p>VirtualBox/Docker setups for isolated testing of apps & security.</p>
+                        <a href="https://github.com/RJSLabbert/dev-vm-setup" target="_blank" class="project-link">
+                            View on GitHub <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About -->
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                <p>I am a south african developer that is set out to create a online pressence for people and companies.</p>
+                <p>South African developer passionate about AI, mobile apps, and web presence for people & companies. Building the future with code.</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
@@ -117,10 +132,9 @@
         <div class="container">
             <div class="footer-content">
                 <div class="social-links">
+                    <a href="https://github.com/RJSLabbert" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
                     <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
                     <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
             <div class="copyright">
@@ -129,7 +143,6 @@
         </div>
     </footer>
 
-    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>

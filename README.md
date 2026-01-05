@@ -11,8 +11,7 @@ A responsive single-page portfolio showcasing my front-end skills. Features smoo
 
 ## 📸 Screenshots
 ![Hero Section](https://rjslabbert.github.io/Website_Test/screenshot-hero.png)  
-|
-|
+
 ![Contact Grid](https://rjslabbert.github.io/Website_Test/Contact-screenshot.png)
 
 

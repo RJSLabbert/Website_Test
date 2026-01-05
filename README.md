@@ -11,8 +11,8 @@ A responsive single-page portfolio showcasing my front-end skills. Features smoo
 
 ## 📸 Screenshots
 ![Hero Section](https://rjslabbert.github.io/Website_Test/screenshot-hero.png)  
+|
+|
 ![Contact Grid](https://rjslabbert.github.io/Website_Test/Contact-screenshot.png)
 
-*(No images yet? They'll auto-fix once uploaded. Temp placeholders below:)*
-![Hero Placeholder](https://via.placeholder.com/800x400/1e3a8a/e2e8f0?text=Hero+with+Headshot+%26+Bio)
-![Projects Placeholder](https://via.placeholder.com/800x400/3b82f6/f8fafc?text=AI+Minute+App+%26+More)
+
